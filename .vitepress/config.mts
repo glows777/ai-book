@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "小白AI",
   description: "WhiteAI — Simplifying AI for everyone. Practical tutorials, workflows, and insights that make AI easy to understand and apply.",
+  outDir: '.vitepress/dist',
+  base: '/ai-book/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
