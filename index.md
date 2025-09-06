@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: AI 知识科普
-      link: /ai-book
+      link: /ai-book/init
     - theme: alt
       text: n8n教程
-      link: /n8n-book
+      link: /ai-n8n/init
 
 features:
   - title: AI 知识科普
