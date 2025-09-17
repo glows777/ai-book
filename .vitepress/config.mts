@@ -21,10 +21,10 @@ export default defineConfig({
           text: 'AI 知识科普',
           items: [
             { text: '初识AI', link: '/ai-book/init' },
-            { text: '机器学习基础', link: '/ai-book/ml-basics' },
-            { text: '深度学习入门', link: '/ai-book/dl-intro' },
-            { text: '自然语言处理', link: '/ai-book/nlp' },
-            { text: '计算机视觉', link: '/ai-book/cv' },
+            { text: '如何写好关键词', link: '/ai-book/prompt' },
+            { text: 'rag技术', link: '/ai-book/rag' },
+            { text: '微调模型', link: '/ai-book/finetune' },
+            { text: '私有化部署', link: '/ai-book/self-deploy' },
           ]
         }
       ],
