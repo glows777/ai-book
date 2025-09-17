@@ -2,14 +2,14 @@
     "redirects": [
         {
             "source": "/",
-            "destination": "/ai-book/init",
+            "destination": "/ai-book/",
             "permanent": true
         }
     ],
     "rewrites": [
         {
-            "source": "/ai-book/assets/:path*",
-            "destination": "/assets/:path*"
+            "source": "/ai-book/:path*",
+            "destination": "/:path*"
         }
     ]
 }
