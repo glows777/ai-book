@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: 'AI 知识科普', link: '/ai-book/init' },
-      { text: 'n8n教程', link: '/ai-n8n/init' }
+      { text: 'n8n教程', link: '/ai-n8n/n8n 入门指南（上）/index.md' }
     ],
 
     sidebar: {
@@ -32,11 +32,7 @@ export default defineConfig({
         {
           text: 'n8n 教程',
           items: [
-            { text: 'n8n 入门', link: '/ai-n8n/init' },
-            { text: '工作流设计', link: '/ai-n8n/workflow-design' },
-            { text: '节点使用指南', link: '/ai-n8n/nodes-guide' },
-            { text: '自动化场景', link: '/ai-n8n/automation-scenarios' },
-            { text: '高级技巧', link: '/ai-n8n/advanced-tips' },
+            { text: 'n8n 入门指南（上）', link: '/ai-n8n/n8n 入门指南（上）/index.md' },
           ]
         }
       ],
