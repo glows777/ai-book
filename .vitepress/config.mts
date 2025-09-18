@@ -5,14 +5,14 @@ export default defineConfig({
   title: "小白AI",
   description: "WhiteAI — Simplifying AI for everyone. Practical tutorials, workflows, and insights that make AI easy to understand and apply.",
   outDir: '.vitepress/dist',
-  base: '/ai-book/',
+  base: '/',
   srcDir: '.',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
       { text: 'AI 知识科普', link: '/ai-book/init' },
-      { text: 'n8n教程', link: '/ai-n8n/n8n 入门指南（上）/index.md' }
+      { text: 'n8n教程', link: '/ai-n8n/n8n 入门指南（上）/index' }
     ],
 
     sidebar: {
@@ -32,7 +32,7 @@ export default defineConfig({
         {
           text: 'n8n 教程',
           items: [
-            { text: 'n8n 入门指南（上）', link: '/ai-n8n/n8n 入门指南（上）/index.md' },
+            { text: 'n8n 入门指南（上）', link: '/ai-n8n/n8n 入门指南（上）/index' },
           ]
         }
       ],
